@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    overflow-x: hidden; /* Oculta a rolagem vertical */
+  }
+
+.policy-product .owl-prev, 
+.policy-product .owl-next {
+    background: rgb(158 158 158 / 28%) !important;
+    color: #222 !important;
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50% !important;
+    position: absolute;
+    top: 50%;
+    transition: .3s all ease;
+  }
+
+  .policy-product .owl-prev {
+    left: -8px;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .policy-product .owl-next {
+    right: -68px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .policy-product .fa-caret-left, 
+  .policy-product .fa-caret-right{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .testimonial .owl-prev, .testimonial .owl-next{
+    position: absolute !important;
+    background: #22202024 !important;
+    width: 64px !important;
+    height: 64px !important;
+    border-radius: 50% !important;
+    z-index: 2 !important;
+    font-size: 24px !important;
+    color: #111 !important;
+    transition: all .3s ease !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  .testimonial .owl-prev{
+  
+    left: 114px !important;
+  }
+
+  .testimonial .owl-next {
+    right: 48px !important;
+  }
+
+  .testimonial .owl-prev .fa-caret-left,
+  .testimonial .owl-next .fa-caret-right{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  .testimonial .owl-prev:hover, .testimonial .owl-next:hover {
+    background: #ff4000 !important;
+    color: #fff !important;
+  }
+  

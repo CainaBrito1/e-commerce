@@ -1,0 +1,40 @@
+   
+        <div class="card">
+            <div class="card-main">
+                <div class="discount">-9%</div>
+                <div class="label label-green">Pre-order</div>
+                <div class="product-container">
+                    <div class="p" (mouseover)="imageChange($event)"><img src="../assets/images/product-1.jpg" alt="Product"></div>
+                    <div class="p" (mouseover)="imageChange($event)"><img src="../assets/images/product-2.jpg" alt="Product"></div>
+                    <div class="p" (mouseover)="imageChange($event)"><img src="../assets/images/product-3.jpg" alt="Product"></div>
+                    
+                </div>
+                <div class="image">
+                    <img src="{{url}}" alt="Product">
+                </div>
+                <div class="cart-line"></div>
+                <div class="cart-item">
+                    <ul>
+                        <li><a href=""><fa-icon [icon]="faShoppingBasket"></fa-icon></a></li>
+                        <li><a href=""><fa-icon [icon]="faHeart"></fa-icon></a></li>
+                        <li><a href=""><fa-icon [icon]="faSearch"></fa-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <a href="javascript:void(0);">Incidid Tongue Bar</a>
+                <div class="rating">
+                    <fa-icon [icon]="faStar"></fa-icon>
+                    <fa-icon [icon]="faStar"></fa-icon>
+                    <fa-icon [icon]="faStar"></fa-icon>
+                    <fa-icon [icon]="faStar"></fa-icon>
+                    <fa-icon [icon]="faStar"></fa-icon>
+                </div>
+                <p>
+                    <span class="money">$81.00</span>
+                    <span class="price-old">$89.00</span>
+                </p>
+            </div>
+        </div>
+    
+    

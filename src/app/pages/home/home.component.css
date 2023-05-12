@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.bg-color {
+    background: #eee;
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.bigCards {
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+.policy{
+    background-image: url(/assets/images/bg-color-black.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 60px 0;
+}
+
+.policy-product {
+    padding: 60px 0;
+    background: #eee;
+}
+
+.footer-top {
+    padding: 50px 0;
+    background-color: #111;
+}
+
+.footer-middle {
+    padding: 50px 0;
+    background-color: #1d1d1d;
+
+}
+
+footer{
+    padding: 20px 0;
+    background: #111;
+}
+
+.testimonial {
+    background-image: url(../../../assets/images/hero-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+    position: relative;
+}

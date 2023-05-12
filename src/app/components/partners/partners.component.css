@@ -1,0 +1,18 @@
+.containers {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    
+}
+
+.containers img{
+    transition: all .3 ease;
+    width: 200px;
+    height: 100px;
+    background: transparent;
+}
+
+.containers img:hover {
+    box-shadow: 0 0 10px 1px #dbdbdb;
+
+}

@@ -1,0 +1,48 @@
+.containers {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.round{
+    padding: 23px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 34px;
+    background: rgba(255,255,255, .2);
+    transition: all .3s ease;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.round-icon {
+    position: absolute;
+    bottom: 15%;
+    transform: translate(-5%, -5%);
+    color: #fff;    
+}
+.policy-card h2{
+    transition: all .3s ease;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 12px 0 5px;
+}
+
+.policy-card p{
+    color: #dbdbdb;
+    font-style: italic;
+}
+
+.policy-card:hover .round {
+    background: #ff4000;
+    cursor: pointer;
+
+}
+.policy-card:hover h2 {
+    color: #ff4000;
+    cursor: pointer;
+
+}
+

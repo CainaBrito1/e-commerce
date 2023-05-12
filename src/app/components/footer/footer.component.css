@@ -1,0 +1,94 @@
+.containers {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-top-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-top-menu ul li {
+    list-style-type: none;
+    margin-top: 20px;
+    color: #fff;
+    
+}
+
+.footer-top-menu ul li .heading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer-top-menu ul li .address {
+    color: #ccc;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.footer-top-menu ul li .email a{
+    padding-left: 10px;
+    color: #ccc;
+    text-decoration: underline;
+    transition: .3s all ease;
+    font-size: 15px;
+}
+
+.footer-top-menu ul li .email a:hover {
+    color: #ff4000;
+}
+
+.footer-top-menu ul li .number a {
+    color: #ff4000;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.footer-all-menu h2 {
+    color: #ff4000;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0;
+}
+
+.footer-all-menu h2::before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #dbdbdb;
+    opacity: .1;
+    bottom: -19px;
+    left: 0;
+}
+
+.footer-all-menu ul {
+    padding: 0;
+    margin: 30px 0 0  0;
+}
+
+.footer-all-menu ul li {
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+.footer-all-menu ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #666;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.footer-all-menu ul li:hover .fa-circle {
+    color: #ff4000;
+}
+
+.footer-all-menu ul li a:hover {
+    color: #ff4000;
+    margin-left: 10px;
+}
