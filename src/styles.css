@@ -5,6 +5,9 @@ body {
     background: #eee;
     overflow-x: hidden; /* Oculta a rolagem vertical */
   }
+  .best-Seller {
+    z-index: 1 !important;
+}
 
 .policy-product .owl-prev, 
 .policy-product .owl-next {
@@ -13,29 +16,29 @@ body {
     height: 60px !important;
     width: 60px !important;
     border-radius: 50% !important;
-    position: absolute;
-    top: 50%;
-    transition: .3s all ease;
+    position: absolute!important;
+    top: 50%!important;
+    transition: .3s all ease!important;
   }
 
   .policy-product .owl-prev {
-    left: -8px;
-    transform: translate(-50%, -50%);
+    left: -8px!important;
+    transform: translate(-50%, -50%)!important;
     
   }
   
   .policy-product .owl-next {
-    right: -68px;
-    transform: translate(-50%, -50%);
+    right: -68px!important;
+    transform: translate(-50%, -50%)!important;
   }
   
   .policy-product .fa-caret-left, 
   .policy-product .fa-caret-right{
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 30px!important;
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%) !important;
   }
 
   .testimonial .owl-prev, .testimonial .owl-next{
@@ -73,4 +76,56 @@ body {
     background: #ff4000 !important;
     color: #fff !important;
   }
+
+  .BannerSlider .owl-next, .BannerSlider .owl-prev{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background: transparent !important;
+    transition: .3s all ease;
+  }
   
+
+  .BannerSlider .owl-prev{
+    left: 6px;
+  }
+  .BannerSlider .owl-next{
+    right: -60px;
+  }
+ 
+  .BannerSlider .owl-prev::before, .BannerSlider .owl-next::before{
+    position: absolute ;
+    top: 50% ;
+    transform: translate(-50%, -50%) ;
+    width: 110px ;
+    height: 110px ;
+    background: #ffffff24;
+    content: '' ;
+    border-radius: 50% ;
+  }
+  
+  .BannerSlider .owl-prev::before {
+    left: 44px;
+  }
+  .BannerSlider .owl-next::before {
+    right: -105px;
+  }
+
+  .BannerSlider .owl-next .fa-arrow-right,
+  .BannerSlider .owl-prev .fa-arrow-left {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .BannerSlider .owl-next .fa-arrow-right{
+    right: 0;
+  }
+  .BannerSlider .owl-next:hover::before, .BannerSlider .owl-prev:hover::before{
+    background: #ff4000 !important;
+
+  }

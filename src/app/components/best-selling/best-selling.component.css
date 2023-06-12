@@ -1,0 +1,93 @@
+.best-selling {
+    position: relative;
+    top: -60px;
+    z-index: 1;
+}
+
+.best-selling-container {
+    position: relative;
+    background: #fff;
+    padding: 0 40px 0 0;
+    border-radius: 10px;
+}
+.sale-price {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #ff4000;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 26px;
+    width: 260px;
+    text-align: center;
+}
+
+.selling-col-1 {
+    width: 16%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.selling-col-2, .selling-col-3 {
+    width: 42%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.selling-left ul {
+    padding: 0;
+    margin: 0;
+}
+
+.selling-left ul li {
+    display: block;
+    padding: 22px;
+    background: #f5f5f5;
+    text-align: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.selling-left ul li:first-child {
+    padding-top: 130px;
+    border-top-left-radius: 10px;
+}
+.selling-left ul li:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: 10px;
+}
+.selling-left ul li .count-date {
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+    display: block;
+    letter-spacing: 0.6px;
+}
+.selling-left ul li .count-day {
+    color: #555;
+    display: block;
+    font-size: 18px;
+
+}
+
+.selling-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.selling-heading {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dbdbdb;
+
+}
+
+.selling-heading a {
+    color: #555;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+}

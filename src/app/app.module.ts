@@ -17,6 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MidiasComponent } from './components/midias/midias.component';
 import { DireitosAutoraisComponent } from './components/direitos-autorais/direitos-autorais.component';
 import { HeaderSliderComponent } from './components/header-slider/header-slider.component';
+import { BannerSliderComponent } from './components/banner-slider/banner-slider.component';
+import { BestSellingComponent } from './components/best-selling/best-selling.component';
 
 
 @NgModule({
@@ -33,6 +35,8 @@ import { HeaderSliderComponent } from './components/header-slider/header-slider.
     DireitosAutoraisComponent,
     
     HeaderSliderComponent,
+         BannerSliderComponent,
+         BestSellingComponent,
     
     
   ],
